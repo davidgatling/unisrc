@@ -1,0 +1,83 @@
+body {
+  background-color: #727270;
+  font-family: "Dongle", sans-serif;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e85a4f;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8e8d8a;
+}
+.jumbotron {
+  background-color: #e98074;
+  color: #eae7dc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sgn{
+    margin-left: 5px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d8c3a5;
+  color: #000000;
+  border-color: #d8c3a5;
+  font-size: 1.2rem;
+}
+.sgn:hover {
+    background-color: #e85a4f;
+    color: #0a0a0a;
+    border: #727270 solid 1px;
+  }
+.btn {
+  background-color: #d8c3a5;
+  color: #000000;
+  border-color: #d8c3a5;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background-color: #e85a4f;
+  color: #eae7dc;
+  border-color: #e85a4f;
+  border: #727270 solid 2px;
+}
+footer {
+  margin-top: 20px;
+  background: #d8c3a5;
+  color: #000000;
+  text-align: center;
+  padding: 1rem;
+}
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+.feat {
+  transition: ease-in-out 500ms;
+}
+.feat:hover {
+  transform: scale(1.05);
+}
+body {
+  background-color: hsl(30, 50%, 95%);
+  font-family: "Dongle", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dongle", sans-serif;
+}
+
+p {
+  font-family: "Dongle", sans-serif;
+  font-size: 18px;
+}
