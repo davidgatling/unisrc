@@ -1,5 +1,7 @@
 body {
   background-color: #727270;
+  overflow-x: hidden;
+  width: 100vw;
   font-family: "Dongle", sans-serif;
 }
 .navbar-brand {
@@ -80,4 +82,52 @@ h6 {
 p {
   font-family: "Dongle", sans-serif;
   font-size: 18px;
+}
+.pre{
+  width: 100%;
+  margin:auto;
+}
+.rd{
+  width: 98%;
+  margin: auto;
+}
+.upm{
+  border-radius: 5px;
+  background-color: #d8c3a5;
+  color: #000000;
+  border-color: #d8c3a5;
+}
+.upm a{
+  color: black;
+}
+.upm:hover {
+  background-color: #e85a4f;
+  color: #eae7dc;
+  border: #727270 solid 2px;
+}
+.upm a:hover{
+  color: #fff;
+}
+@media(min-width: 900px){
+  .postimg{
+    margin-left: 25vw;
+    width: 30vw;
+  height: auto;
+  }
+}
+@media(max-width: 900px){
+  .upm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+@media(max-width:767px){
+  body{
+    overflow-x: hidden;
+  }  
+  
 }
